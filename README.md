@@ -1,12 +1,10 @@
 ## gopush
 ### a Go client library for Pushover notifications
 
-This is my first real Go program, so *caveat emptor*.
-
 `gopush` provides an interface to [Superblock's](https://superblock.net)
 [Pushover](https://pushover.net).
 
-To use it, use the import `"bitbucket.org/kisom/gopush/pushover"`.
+To use it, use the import `"github.com/l3x/gopush/pushover"`.
 
 Example usage:
 
@@ -70,3 +68,11 @@ signature is:
 
 The first string is the message, the second string is the device name. It returns
 the same as `Notify`.
+
+
+Details
+-------
+
+Shamelessly take from bitbucket.org/kisom/gopush/pushover.
+
+This version does not have mercurial as a dependency.
